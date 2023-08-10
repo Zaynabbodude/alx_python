@@ -1,6 +1,11 @@
 LIMIT = 98
-counter = 0 * 0
+counter = 0
+number = 0
 while counter <= LIMIT:
-    print(counter)
-    counter = counter + 1 
+ while number <= LIMIT:
+    print("{} = 0 x {}".format(counter, number))
+    counter = counter + 1
+    number = number + 1
+
+
 
