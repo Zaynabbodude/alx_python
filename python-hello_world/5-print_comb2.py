@@ -1,5 +1,5 @@
-LIMITS = 99
-counter = 00
-while counter < LIMITS:
-    print(counter) 
-    counter = counter + 1, 
+LIMIT = 100
+counter = 0
+while counter < LIMIT:
+    print("counter" , ",", end="") 
+    counter = counter + 1 

@@ -1,5 +1,5 @@
 LIMIT = 98
-counter = 0
+counter = 00
 number = 0
 while counter <= LIMIT:
  while number <= LIMIT:
