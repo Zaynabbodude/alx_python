@@ -1,4 +1,4 @@
-number = (100)
+number = (1)
 counter = int(00)
 while counter < number:
     print("counter" "," " ", end="") 
