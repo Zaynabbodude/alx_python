@@ -1,5 +1,4 @@
-number = (100)
-counter = int(00)
-while counter < number:
-    print("counter" "," " ", end="") 
-    counter = counter + 1 
+for number in range(100):
+    print("{:02}".format(number),end=", ") 
+
+   
