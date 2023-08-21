@@ -1,11 +1,14 @@
-LIMIT = 98
-counter = 00
-number = 0
-while counter <= LIMIT:
- while number <= LIMIT:
-    print("{} = 0 x {}".format(counter, number))
-    counter = counter + 1
-    number = number + 1
-
+for number in range (99):
+    hex = 0
+    hex_value = "{0:x}".format (number)
+    print("{} = {} * {}".format( number, hex_value, hex))
+      
+     
+     
+   
+ 
+   
+   
+   
 
 
