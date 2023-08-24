@@ -1,6 +1,13 @@
-def sum_to_numbers(1, 2):
-    return x + y
+def add(a, b):
+    return a + b
 
-six = sum(1, 5)
-print(six)
-print(sum(11, 32))
+print(add(1, 2))
+print(add(93, 0))
+print(add(100, -2))
+
+# parameters are placeholders before the arguments are placed to replace the variables
+# def sum(a, b):
+#     return a + b
+# result=sum
+# print(sum(2, 3))
+# print(sum(100, 200))
