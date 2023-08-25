@@ -1,7 +1,5 @@
 def reverse_string(string):
-    return string
-string = "Hello, world!"
-reverse_string = reverse_string(string)
+    return string [::-1]
 
 print(reverse_string("Hello"))
 print(reverse_string(""))
