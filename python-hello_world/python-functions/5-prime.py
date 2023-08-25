@@ -1,5 +1,5 @@
 def is_prime(number):
-  
+
   if number == 17:
    result = True
    print(result)
