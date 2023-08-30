@@ -1,5 +1,13 @@
 def validate_password(password):
   
+    if len(password) < 8:
+        return False
+    
+    # Check for uppercase, lowercase, and digit
+    has_uppercase = False
+    has_lowercase = False
+    has_digit = False
+    
     for char in password:
         if char.isupper():
             has_uppercase = True
