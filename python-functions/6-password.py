@@ -1,8 +1,11 @@
 def validate_password(password):
-    if password > 8: 
-      return True 
-    if password == ("uppercase, lowercase, digit"):
-       return True
+    if password < 8: 
+      return False 
+    if password:
+      pass_uppercase = True
+      pass_lowercase = True
+      pass_digit = True
+       
     else:
        return False
 
