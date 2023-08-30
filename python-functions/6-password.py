@@ -7,7 +7,7 @@ def validate_password(password):
     has_uppercase = False
     has_lowercase = False
     has_digit = False
-    
+
     for char in password:
         if char.isupper():
             has_uppercase = True
@@ -25,8 +25,6 @@ def validate_password(password):
     # Check for spaces
     if ' ' in password:
         return False
-    
-    return True
 
 print(validate_password("Password123"))
 print(validate_password("abc123"))
